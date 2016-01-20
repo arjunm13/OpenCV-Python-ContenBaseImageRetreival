@@ -1,2 +1,2 @@
 * text=auto
-*.cs     diff=python
+*.py     diff=python
