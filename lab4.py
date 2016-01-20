@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 
 def histogramlistAdd(histoindex, file, type, levels):
 
-	file = file + '.jpg'
+	file = 'images/' +file + '.jpg'
 	img = cv2.imread(file)
 
 	if type == 'RGB':
