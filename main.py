@@ -13,6 +13,7 @@ histoRGB =[]
 histoYUV =[]
 histoHSV =[]
 
+## load histograms for all images 1 through 10
 for num in range(1,11):
 	lab4.histogramlistAdd(histoRGB, str(num), 'RGB',numberOfLevels)
 	lab4.histogramlistAdd(histoYUV, str(num), 'YUV',numberOfLevels)
